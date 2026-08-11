@@ -7,7 +7,7 @@
       "role": "backend",
       "cwd": ".",
       "port": 8000,
-      "startCommand": "python3 -m gunicorn --bind 0.0.0.0:8000 app:app",
+      "startCommand": ".venv/bin/python -m gunicorn --bind 0.0.0.0:8000 app:app",
       "preview": true
     }
   ]
