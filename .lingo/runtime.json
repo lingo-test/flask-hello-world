@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "projectType": "other",
+  "services": [
+    {
+      "name": "web",
+      "role": "backend",
+      "cwd": ".",
+      "port": 8000,
+      "startCommand": ".venv/bin/python -m gunicorn --bind 0.0.0.0:8000 app:app",
+      "preview": true
+    }
+  ]
+}
